@@ -27,6 +27,7 @@ apply plugin: 'kotlin-android'
 android {
     compileSdkVersion 34
     ndkVersion '26.0.10792818'
+    namespace "io.agora.agorartm"
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
